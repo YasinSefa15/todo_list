@@ -25,20 +25,16 @@ function App() {
                 <TextInput
                     style={styles.input}
                     placeholder="Enter your task here"
-                    onChangeText={
-                        setText
-                    }
+                    onChangeText={setText}
                     value={text}
                 />
                 <TouchableOpacity
-                    style={styles.button} //setText
-                    onPress={
-                        handleAddTaskPress
-                        //setShowingText("")
-                    }
+                    style={styles.button}
+                    onPress={handleAddTaskPress}
                 >
                     <Text style={styles.buttonText}>Add</Text>
                 </TouchableOpacity>
+
                 <View style={styles.divider}/>
 
                 <FlatList
@@ -54,7 +50,7 @@ function App() {
                         </View>
                     )}
                     keyExtractor={() => {
-                        return Date.now()  + Math.random()
+                        return Date.now() + Math.random()
                     }}
                 />
             </View>

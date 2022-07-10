@@ -45,7 +45,7 @@ export const appStyles = StyleSheet.create({
         backgroundColor: '#ddd',
         marginVertical: 32
     },
-    taskContainer:{
+    taskContainer: {
         marginBottom: 8,
         borderColor: '#ddd',
         borderBottomWidth: 1,
@@ -53,11 +53,10 @@ export const appStyles = StyleSheet.create({
         justifyContent: "space-between",
         padding: 12
     },
-    taskText:{
+    taskText: {
         fontSize: 15
-
     },
-    taskDelete:{
+    taskDelete: {
         backgroundColor: "red",
         width: 23,
         height: 23,
@@ -65,7 +64,7 @@ export const appStyles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center"
     },
-    taskDeleteText:{
+    taskDeleteText: {
         fontSize: 15,
         color: "white"
     },
